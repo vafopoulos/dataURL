@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.datameans.tool.opj</groupId>
+  <artifactId>opj-data-url</artifactId>
+  <version>0.0.1</version>
+  <name>ConvertCsvToSheet</name>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>elod.tool.google.sheets</groupId>
+  		<artifactId>G_sheets</artifactId>
+  		<version>2.1-release</version>
+  	</dependency>
+  	<dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.1</version>
+      </dependency>
+      
+
+
+      
+  </dependencies>
+
+<!--create executable jar  -->
+<build>
+  <plugins>
+
+<plugin>
+  <artifactId>maven-assembly-plugin</artifactId>
+  <configuration>
+    <archive>
+      <manifest>
+        <mainClass>com.datameans.tool.opj.convert.ConvertCsv</mainClass>
+      </manifest>
+    </archive>
+    <descriptorRefs>
+      <descriptorRef>jar-with-dependencies</descriptorRef>
+    </descriptorRefs>
+  </configuration>
+  <executions>
+    <execution>
+      <id>make-assembly</id> <!-- this is used for inheritance merges -->
+      <phase>package</phase> <!-- bind to the packaging phase -->
+      <goals>
+        <goal>single</goal>
+      </goals>
+    </execution>
+  </executions>
+</plugin>
+  </plugins>
+</build>
+
+</project>

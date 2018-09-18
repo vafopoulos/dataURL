@@ -1,0 +1,5 @@
+#surefire
+#Mon Sep 17 16:40:39 EEST 2018
+user.dir=/home/ilias/git/opj/OpJdataURL/convert
+localRepository=/home/ilias/.m2/repository
+basedir=/home/ilias/git/opj/OpJdataURL/convert
