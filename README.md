@@ -20,6 +20,4 @@ default value (opj followed by the current date) will be used
 -from [optional] The starting date of the data is referenced.  
 -to [optional] The ending date of the data is referenced.  
   
-*THINGS TO DO*  
-store user credential path on settings file and load automatically  
-store and hide our google auth file  
+
