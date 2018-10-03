@@ -12,6 +12,7 @@ default value (opj followed by the current date) will be used
 -<B>Share</B> [optional] If used the new file will be shared with anyone with a link. If not used and no user authentication is supplied, the new file will not be available to you.  
   
 [The following block is multiple accepted for multiple files]  
+
 -<B>File</B> The local path to the file  
 -<B>Range</B> A range from the above file to be copied. For multiple ranges repeat the option or combine with with /. ie -range A1:B2 -range A3:B6/A9:A10  
 -<B>Keyword</B> [optional multiple available] The keywords to describe the current datasource  
