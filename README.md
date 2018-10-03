@@ -17,7 +17,7 @@ default value (opj followed by the current date) will be used
 -<B>Keyword/B> [optional multiple available] The keywords to describe the current datasource  
 -<B>Source/<B> The source (textual or other) of the data  
 -<B>Url</B> [optional] The url/web address of the source or the query/API call used  
--<B>From/<B> [optional] The starting date of the data is referenced.  
+-<B>From</B> [optional] The starting date of the data is referenced.  
 -<B>To</B> [optional] The ending date of the data is referenced.  
   
 
