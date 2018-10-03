@@ -3,7 +3,7 @@ This piece of software can combine multiple csv/xls/xlsx files into one Google S
 
 The user must define:
 
--Title [optional] The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
+-<B>Title</B> [optional] The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
 default value (opj followed by the current date) will be used  
 -Github [optional] A link to a github page  
 -Author	me [optional] The name of the author  
