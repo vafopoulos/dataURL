@@ -14,7 +14,7 @@ default value (opj followed by the current date) will be used
 [The following block is multiple accepted for multiple files]  
 -<B>File</B> The local path to the file  
 -Range A range from the above file to be copied. For multiple ranges repeat the option or combine with with /. ie -range A1:B2 -range A3:B6/A9:A10  
--<B>Keyword/B> [optional multiple available] The keywords to describe the current datasource  
+-<B>Keyword</B> [optional multiple available] The keywords to describe the current datasource  
 -<B>Source/<B> The source (textual or other) of the data  
 -<B>Url</B> [optional] The url/web address of the source or the query/API call used  
 -<B>From</B> [optional] The starting date of the data is referenced.  
