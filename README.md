@@ -5,8 +5,8 @@ The user must define:
 
 -<B>Title</B> [optional] The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
 default value (opj followed by the current date) will be used  
--Github [optional] A link to a github page  
--Author	me [optional] The name of the author  
+-<B>Github</B> [optional] A link to a github page  
+-<B>Author</B>	me [optional] The name of the author  
 -Auth [optional] a folder where the authentication file will be stored. If not used the new file will be created on a default user  
 -Folder [optional] The Google Drive folder under where the new file will be stored  
 -Share [optional] If used the new file will be shared with anyone with a link. If not used and no user authentication is supplied, the new file will not be available to you.  
