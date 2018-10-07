@@ -38,18 +38,19 @@ default value (opj followed by the current date) will be used </td>
   <tr>
     <td><B>Keyword</B></td> <td>[optional multiple available]</td>  <td>The keywords to describe the current datasource</td>      
   </tr>
+  <tr>
+    <td><B>Source</B></td> <td></td>  <td>The source (textual or other) of the data</td>      
+  </tr>
+ <tr>
+    <td><B>Url</B></td> <td>[optional]</td>  <td>The url/web address of the source or the query/API call used</td>      
+  </tr>
+ <tr>
+    <td><B>From</B></td> <td>[optional]</td>  <td>The starting date of the data is referenced</td>      
+  </tr>
+ <tr>
+    <td><B>To</B></td> <td>[optional]</td>  <td>The ending date of the data is referenced</td>      
+  </tr>
   </table>
 
-
-  
-
-
-
-
--<B>Keyword</B> [optional multiple available] The keywords to describe the current datasource  
--<B>Source</B> The source (textual or other) of the data  
--<B>Url</B> [optional] The url/web address of the source or the query/API call used  
--<B>From</B> [optional] The starting date of the data is referenced.  
--<B>To</B> [optional] The ending date of the data is referenced.  
   
 
