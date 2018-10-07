@@ -2,7 +2,13 @@
 This piece of software can combine multiple csv/xls/xlsx files into one Google Sheet depending on the ranges the user defined for each file.
 
 The user must define:
-
+ <table>
+  <tr>
+    <td><B>Title</B></td> <td>[optional]</td>  <td>The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
+default value (opj followed by the current date) will be used  </td>
+    
+  </tr>
+  </table>
 -<B>Title</B> [optional] The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
 default value (opj followed by the current date) will be used  
 -<B>Github</B> [optional] A link to a github page  
