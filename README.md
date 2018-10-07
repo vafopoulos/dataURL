@@ -4,7 +4,7 @@ This piece of software can combine multiple csv/xls/xlsx files into one Google S
 The user must define:
  <table>
   <tr>
-    <td width="36%"><B>Title</B></td> <td>[optional]</td>  <td width="74%">The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
+    <td width="6%"><B>Title</B></td> <td>[optional]</td>  <td width="74%">The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
 default value (opj followed by the current date) will be used </td>      
   </tr>
  
