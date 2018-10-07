@@ -5,22 +5,47 @@ The user must define:
  <table>
   <tr>
     <td><B>Title</B></td> <td>[optional]</td>  <td>The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
-default value (opj followed by the current date) will be used  </td>
-    
+default value (opj followed by the current date) will be used </td>      
+  </tr>
+ 
+   <tr>
+  <td><B>Github</B></td> <td>[optional]</td>  <td>The link to a github page</td>  
+  </tr>
+  
+   <tr>
+  <td><B>Author</B></td> <td>[optional]</td>  <td>The name of the author</td>  
+  </tr>
+   <tr>
+  <td><B>Auth</B></td> <td>[optional]</td>  <td>A folder where the authentication file will be stored. If not used the new file will be created on a default user</td>  
+  </tr>
+   <tr>
+  <td><B>Folder</B></td> <td>[optional]</td>  <td>The Google Drive folder under where the new file will be stored</td>  
+  </tr>
+   <tr>
+  <td><B>Share</B></td> <td>[optional]</td>  <td>If used the new file will be shared with anyone with a link. If not used and no user authentication is supplied, the new file will not be available to you</td>  
+  </tr>
+  
+  </table>
+  
+  [The following block is multiple accepted for multiple files]  
+<table>
+  <tr>
+    <td><B>File</B></td> <td></td>  <td>The local path to the file</td>      
+  </tr>
+  <tr>
+    <td><B>Range</B></td> <td></td>  <td>A range from the above file to be copied. For multiple ranges repeat the option or combine with with /. ie -range A1:B2 -range A3:B6/A9:A10</td>      
+  </tr>
+  <tr>
+    <td><B>Keyword</B></td> <td>[optional multiple available]</td>  <td>The keywords to describe the current datasource</td>      
   </tr>
   </table>
--<B>Title</B> [optional] The title the new sheet will have. This will be also printed on header of the new sheet. If not supplied a 
-default value (opj followed by the current date) will be used  
--<B>Github</B> [optional] A link to a github page  
--<B>Author</B>	me [optional] The name of the author  
--<B>Auth</B> [optional] a folder where the authentication file will be stored. If not used the new file will be created on a default user  
--<B>Folder</B> [optional] The Google Drive folder under where the new file will be stored  
--<B>Share</B> [optional] If used the new file will be shared with anyone with a link. If not used and no user authentication is supplied, the new file will not be available to you.  
-  
-[The following block is multiple accepted for multiple files]  
 
--<B>File</B> The local path to the file  
--<B>Range</B> A range from the above file to be copied. For multiple ranges repeat the option or combine with with /. ie -range A1:B2 -range A3:B6/A9:A10  
+
+  
+
+
+
+
 -<B>Keyword</B> [optional multiple available] The keywords to describe the current datasource  
 -<B>Source</B> The source (textual or other) of the data  
 -<B>Url</B> [optional] The url/web address of the source or the query/API call used  
