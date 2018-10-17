@@ -1,4 +1,4 @@
-# OpJdataURL
+# dataURL
 This piece of software can combine multiple csv/xls/xlsx files into one Google Sheet depending on the ranges the user defined for each file.
 
 The user must define:
